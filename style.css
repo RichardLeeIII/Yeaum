@@ -1,0 +1,98 @@
+body {
+ 
+  font-family: 'TTHakgyoansimYeohaengR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimYeohaengR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  margin: 50px 50px 0 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.예음 {
+  color: darkred;
+}
+
+.card-title {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+footer {
+  text-align: right;
+  color: darkred;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.tile-image {
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.creative {
+  color: darkred;
+}
+
+.pam {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.pic {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  .logo {
+    width: 100px;
+  }
+  .pam {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .pic {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
