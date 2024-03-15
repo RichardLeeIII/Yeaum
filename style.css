@@ -28,6 +28,7 @@ body {
 
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 
 footer {
@@ -78,6 +79,8 @@ footer {
   background-color: #8b0000; /* Darken the background color on hover */
 }
 
+.card-title{color: darkred;}
+
 @media (max-width: 680px) {
   h1 {
     font-size: 3rem;
@@ -108,5 +111,8 @@ footer {
     display: block;
     margin: 0 auto;
   }
+  .footer a:hover {
+    background-color: #8b0000; /* Darken the background color on hover */
+  } 
 }
 
